@@ -1,0 +1,289 @@
+.App {
+  text-align: center;
+}
+
+.input_id{
+  float: right;
+  display: block;
+  margin-right: 20rem;
+  width: 300px;
+  height: 40px;
+  align-items: center;
+
+  /* margin-right: 20px; */
+}
+
+.label_name{
+  text-align: center;
+  margin-left: 2rem;
+  font-weight: 800;
+  font-size: larger;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.pr-25rem{
+  margin-right: 10%;
+} */
+
+.about_img{
+  
+  background: linear-gradient(#e1eaed, #7e828a);
+  background-image: url(Healthcare-img20.jpg);
+  background-size: 100% 100%;
+  background-position: 100%;
+  color: hsl(275, 50%, 30%);
+  font-size: xx-large;
+  font-weight: 600;
+  margin-bottom: 6%;
+}
+
+.carousel-caption{
+  color: #2fe73b;
+  font-size: larger;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* main div for carousal page */
+#carousel_prog{
+  margin-top: 10%;
+}
+
+/* Main div of about our page */
+.page_train{
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
+/* The main div of upcoming events */
+.events{position: inherit;
+  margin-top: 10%;
+  margin-bottom:auto;
+  }
+
+
+
+.train_head{
+ 
+  font-weight: 900;
+  color: darkred;
+  font-size: 25px;
+}
+
+
+
+/* Heading of the 6-weeks training */
+#train_mainh{text-align: center;
+font-size: 30px !important;}
+
+/* ID of about our training */
+#main_h{text-align: center;
+margin-top: 3%;
+margin-bottom: 3% ;}
+
+/* Headings of the about the training page */
+.heading_1{
+  color: rgb(210, 32, 32) !important;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  text-decoration: solid;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  
+}
+
+/* Body texts of the training activities */
+.train_body{
+font-size: large;
+text-align: justify;
+font-weight: 400;
+letter-spacing: 1px;
+word-spacing: 2px;
+line-height: 30px;
+}
+
+.d-block{width: 100%;
+        height: 10%;}
+
+        /* Sub-heading of texts of upcoming activities */
+#train_head{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  } */
+/* } */
+
+/* table, th, td{
+  border: 1px solid;
+  border-color: chartreuse;
+  border-width: 3px; */
+ 
+/* } */
+
+/* Desiging logo */
+#logo{max-width:100px ;
+max-height: min-content;
+background-attachment: fixed;
+}
+
+/* Designing form page */
+.page_card{
+  align-items: center;
+  text-align: center;
+  top: 0%;
+  /* position: relative; */
+  width: 1000px;
+  background-color: rgb(240, 223, 201);
+  margin-bottom: 5%;
+}
+
+/* submit button */
+
+#submit_id{
+  margin-left: 10rem;
+  background-color: rgb(87, 61, 213);
+  width: 10rem;
+  border-radius: 30%;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: larger;
+}
+
+#my-submit{
+  margin-top: 2rem;
+}
+
+/* Designing the sub-headings */
+.topic-heading{
+  font-weight: 1000;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 5% !important;
+  
+}
+
+/* The div for the main heading background */
+.about_me{
+  margin-bottom: 20%;
+  margin-top: 0%;
+  /* background-attachment: fixed; */
+ position:fixed;
+  background-color: rgb(130, 15, 93); 
+  color: #e1eaed;
+}
+
+
+
+/* The about me photo section */
+.my_photo{
+  background-image: url(Nkechi_img.jpg);
+  background-size: cover;
+  top: 20px;
+  height: 1000px;
+  position: static;
+  margin-bottom: 8%;
+}
+
+/* Sub-heading of about me section */
+
+.me-subheading{font-weight: 800;
+  font-size: xx-large;}
+
+  /* The body section for the ul of fun facts, values and weakness */
+.me-subbody{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  line-height: 120%;
+  word-spacing: 5%;
+  letter-spacing: normal;
+}
+
+ /* The main div of my profile with ny .my_photo */
+#meet_me{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 140%;
+  word-spacing: 10%;
+  letter-spacing: normal;
+  
+}
+
+/* the main body of know about me para */
+.me{
+  font-weight: 400 ;
+  
+}
+
+/* The para for the knw me heading */
+
+#meet{text-align: center;
+  color: rgb(123, 0, 255);
+  font-weight: 900;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+/* The div for let's connect heading */
+#connect-heading{color: #f1163f;
+font-weight: 800;
+text-shadow: #081509 2px 2px;
+font-size: xx-large;
+text-align: center;
+}
+
+/* The div for let's connect body link */
+.connect-body{color: #f1163f;
+  font-weight: 800;
+  text-shadow: #e2d9d9 1px 1px;
+  font-size: xx-large;
+  margin-left: 60%;
+  }
+
+  /* The main div for let's connect */
+  .contact-heading{position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+;}
+
+
+/* #heading_text{color: aliceblue;
+text-decoration: none;} */
